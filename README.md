@@ -2,6 +2,7 @@
 
 This project is a SQL script for a module in the University of Lincoln on scalable database systems. The script creates tables and procedures for a delivery and tracking system based on the schema below.
 
+![UML Class Diagram](UML CLASS.png)
 
 The schema was made to satisfy the following conditions.
 * Create the appropriate tables that most accurately model the scenario. Normalised to at least 2NF.
