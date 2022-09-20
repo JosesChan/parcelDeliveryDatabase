@@ -37,11 +37,15 @@ The table "parcels" stores general information of the parcel such as recipient i
 
 Using the JOIN command, the following tables "daily_shifts_junction", "delivery_information_junction", "drivers" and "shift_types" were connected to get date/time information to correlate with vehicle id and return the relevant information on the vehicle and driver.
 
+![image](https://user-images.githubusercontent.com/2979485/191313273-451526b5-614b-4bf6-905d-c3aff02ea55c.png)
+
 Values you can use to test: 2021-01-07, 14:30:00, 1
 
 #4.2. Number of parcels delivered by any specific driver during a day’s work. 
 
 To get the following information, the following tables were connected using the JOIN command: the tables with shift information, "drivers" table and the general "delivery_information_junction". Then using the WHERE command, it looks for the corresponding input information(date and driver id) to get the relevant rows.
+
+![image](https://user-images.githubusercontent.com/2979485/191313026-1c9bd80c-b28d-4978-8c62-77b38723afd1.png)
 
 Values you can use to test: 2021-01-11, 1
 
