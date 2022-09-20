@@ -2,7 +2,7 @@
 
 This project is a SQL script for a module in the University of Lincoln on scalable database systems. The script creates tables and procedures for a delivery and tracking system based on the schema below.
 
-![UML Class Diagram](UML CLASS.png)
+![UML Class](https://user-images.githubusercontent.com/2979485/191312679-62370572-4f43-4910-9c4c-f9f3d99a8f73.png)
 
 The schema was made to satisfy the following conditions.
 * Create the appropriate tables that most accurately model the scenario. Normalised to at least 2NF.
@@ -12,7 +12,7 @@ The schema was made to satisfy the following conditions.
 SQL queries:
 4.1. The location of any vehicle and its driver at any hour during the working day. 
 
-4.2. Number of parcels delivered by any specific driver during a day’s work. 
+4.2. Number of parcels delivered by any specific driver during a dayâ€™s work. 
 
 4.3. A listing of all drivers.
 
@@ -39,7 +39,7 @@ Using the JOIN command, the following tables "daily_shifts_junction", "delivery_
 
 Values you can use to test: 2021-01-07, 14:30:00, 1
 
-#4.2. Number of parcels delivered by any specific driver during a day’s work. 
+#4.2. Number of parcels delivered by any specific driver during a dayâ€™s work. 
 
 To get the following information, the following tables were connected using the JOIN command: the tables with shift information, "drivers" table and the general "delivery_information_junction". Then using the WHERE command, it looks for the corresponding input information(date and driver id) to get the relevant rows.
 
